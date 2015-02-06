@@ -10,6 +10,7 @@
 # collatz_read
 # ------------
 
+# using a dictionary because look up is O(1)
 cache = {}
 
 def collatz_read (s) :
@@ -28,9 +29,12 @@ def collatz_read (s) :
 def cycle_length (n) :
 	assert n > 0
 	global cache
+	
+	# original value of n that will be cached
 	org = n
 	c = 1
 	while n > 1:
+		# the value is cached
 		if n in cache :
 			c += cache.get(n) - 1
 			n = 1
