@@ -16,10 +16,7 @@ import sys
 # Copyright (C) 2015
 # Glenn P. Downing
 # ---------------------------
-
-# ------------
-# collatz_read
-# ------------
+cache = {}
 
 def collatz_read (s) :
 	"""
@@ -36,14 +33,22 @@ def collatz_read (s) :
 
 def cycle_length (n) :
 	assert n > 0
+	global cache
+	org = n
 	c = 1
 	while n > 1:
-		if (n % 2) == 0 :
-			n = (n // 2)
+		if n in cache :
+			c += cache.get(n) - 1
+			n = 1
 		else :
-			n = (3 * n) + 1
-		c += 1
+
+			if (n % 2) == 0 :
+				n = (n // 2)
+			else :
+				n = (3 * n) + 1
+			c += 1
 	assert c > 0
+	cache[org] = c
 	return c
 
 def collatz_eval (i, j) :
@@ -54,6 +59,7 @@ def collatz_eval (i, j) :
 	return the max cycle length of the range [i, j]
 	"""
 	# <your code>
+
 	if (i > j) :
 		temp = i
 		i = j
