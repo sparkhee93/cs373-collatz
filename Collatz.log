@@ -1,0 +1,114 @@
+commit 1427c494ffcafab282cd3ceea5e3df82228c2b63
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:37:07 2015 -0600
+
+    removed projects directory
+
+commit b024cbfc51465bc329808f16adcf17325ad2879d
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:31:19 2015 -0600
+
+    added comments in Collatz.py
+
+commit 9cdafc2dc92e8f3a0325d46120b65b751bb06922
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:25:55 2015 -0600
+
+    pydoc for Collatz
+
+commit 6b3ad4d464a9749bd5d8b6473c371d810e6f84f1
+Merge: 88939a9 144141e
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:20:59 2015 -0600
+
+    Merge branch 'master' of https://github.com/sparkhee93/cs373-collatz
+
+commit 88939a97016ac887513b579d41aaee5fd5c6faf5
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:08:33 2015 -0600
+
+    renaming from .out.txt to .out
+
+commit 144141e76142f102f5a8539f018ace4aeedef24d
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:06:31 2015 -0600
+
+    Rename projects/collatz/TestCollatz.py to TestCollatz.py
+
+commit 44b91ee548a238f8015e326a4440b7a2b5a0416b
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:05:59 2015 -0600
+
+    Rename projects/collatz/SphereCollatz.py to SphereCollatz.py
+
+commit 1ad22b2a30792693baf8ca6770dd0a5b87805dbd
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:03:28 2015 -0600
+
+    Rename projects/collatz/RunCollatz.py to RunCollatz.py
+
+commit 96caa9bb18eb41783d82785e4cb3670e690f7dce
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 23:00:53 2015 -0600
+
+    Rename projects/collatz/RunCollatz.out to RunCollatz.out
+
+commit a627234976bf80777665263c9a270f200b426013
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 22:59:51 2015 -0600
+
+    Rename projects/collatz/RunCollatz.in to RunCollatz.in
+
+commit 9f9b815c9187f54174a3c09d2bf2c4f0ea63a4e6
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 22:59:23 2015 -0600
+
+    Rename projects/collatz/Collatz.py to Collatz.py
+
+commit b246e2712ec3fd6624806e0c199c4f20855a8a91
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 21:55:44 2015 -0600
+
+    passes sphere v1
+
+commit 7ca2c3193a6db1f1256f37937b7c9d398397103b
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 18:27:10 2015 -0600
+
+    combined RunCollatz and Collatz
+
+commit b9c5fc0bd6ddc91dc71097d21bdf58f8225aa04b
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 06:02:04 2015 -0600
+
+    fixed collatz_eval with assertions
+
+commit f320795c75c563f27dd369224f5bcd0b965984e5
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 05:21:27 2015 -0600
+
+    fixed test_solve_1
+
+commit 113438f97bdd0cdef5bf2818e801c6a5c645d0e6
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Feb 5 00:07:54 2015 -0600
+
+    added test cases for cp26745
+
+commit 22b09f280eaf5913118e605cbe694e7d064b0816
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Feb 3 18:14:25 2015 -0600
+
+    fixed unit tests
+
+commit 4af45f00d8157578a1b88a5136cafec3cb88ced1
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Mon Feb 2 15:14:57 2015 -0600
+
+    ran given files and succeeded
+
+commit 63a79f3a94310dc0672f6e568be393e07c8f8e85
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Mon Feb 2 05:22:47 2015 -0600
+
+    first commit
